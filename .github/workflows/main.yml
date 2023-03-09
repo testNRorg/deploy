@@ -7,4 +7,5 @@ jobs:
     environment: production
     steps:
       - name: deploy
+      - uses: actions/checkout@v1
       - run: echo "Hello World!"
