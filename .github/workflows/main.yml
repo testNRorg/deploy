@@ -1,9 +1,9 @@
+name: demo
 on: workflow_dispatch
 
 jobs:
-  deployment:
+  deploy:
     runs-on: ubuntu-latest
-    environment: production
     steps:
       - name: deploy
       - run: echo "Hello World!"
