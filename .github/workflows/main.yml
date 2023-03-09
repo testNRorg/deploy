@@ -4,6 +4,7 @@ on: workflow_dispatch
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    environment: test2
     steps:
       - name: deploy
         run: echo "Hello World!"
